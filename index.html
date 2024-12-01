@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee's Tech | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+.about-section {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close-btn {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Lee's Tech</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="hero">
+            <h1>Discover the Future of Technology</h1>
+            <p>Your one-stop destination for cutting-edge electronics.</p>
+            <a href="about.html" class="btn">Learn More</a>
+
+        </section>
+        <section id="about" class="about-section">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Leeroy Karmah. The Founder of Lee's Tech.</p>
+            <div class="profile-pic">
+                <img src="images/leeroy.jpg" alt="Profile Picture">
+            </div>
+        </section>
+        <section class="categories">
+            <h2>Our Products</h2>
+            <div class="category-list">
+                <div class="category">
+                    <img src="images/iphones.jpg" alt="Smartphones">
+                    <h3>Smartphones</h3>
+                </div>
+                <div class="category">
+                    <img src="images/lp2.jpg" alt="Laptops">
+                    <h3>Laptops</h3>
+                </div>
+                <div class="category">
+                    <a href="acc-2.html"><img src="images/Best Tech Gadgets 2020.jpg" alt="Accessories"> </a>
+                    <h3>Accessories</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Lee's Tech | Fluanting the Future</p>
+    </footer>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>About Me</h2>
+            <p>Hello! I'm Leeroy Karmah Student of Starz University, Studying System Administration, and Founder of the Lee's Tech where you can ge your lastest Tech Gadgets.</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
